@@ -230,6 +230,54 @@ class SpendingApiTest {
         assertEquals("UTC", timezone(device));
     }
 
+    @Test
+    void invalidTimezoneHeaderKeepsTheStoredZone() throws Exception {
+        String device = UUID.randomUUID().toString();
+        api(get("/api/v1/settings"), device).andExpect(status().isOk());
+        assertEquals("America/New_York", timezone(device));
+
+        mockMvc.perform(get("/api/v1/settings").header("X-Device-Id", device).header("X-Timezone", "Not/AZone"))
+                .andExpect(status().isOk());
+        assertEquals("America/New_York", timezone(device));
+    }
+
+    @Test
+    void renamingAUsedItemDoesNotMoveItsWeek() throws Exception {
+        String device = UUID.randomUUID().toString();
+        api(get("/api/v1/settings"), device).andExpect(status().isOk());
+        UUID owner = userId(device);
+        UUID ingredientId = UUID.randomUUID();
+        Instant old = at(2026, 9, 28, 12);
+        jdbc.update(
+                """
+                insert into ingredients (
+                    id, user_id, name, quantity, unit, category, added_at, expires_at,
+                    estimated_price, status, source, status_changed_at, created_at, updated_at)
+                values (?, ?, 'Old rice', 1, 'count', 'grain', ?, '2026-11-01', 3.00, 'USED', 'MANUAL', ?, ?, ?)
+                """,
+                ingredientId,
+                owner,
+                Timestamp.from(old),
+                Timestamp.from(old),
+                Timestamp.from(old),
+                Timestamp.from(old));
+
+        mockMvc.perform(org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch("/api/v1/ingredients/" + ingredientId)
+                        .header("X-Device-Id", device)
+                        .header("X-Timezone", "America/New_York")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("{\"name\":\"Renamed rice\"}"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("Renamed rice"));
+
+        api(get("/api/v1/spending/weeks").param("count", "8"), device)
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[2].weekStart").value("2026-09-28"))
+                .andExpect(jsonPath("$[2].foodSavedCount").value(1))
+                .andExpect(jsonPath("$[0].weekStart").value("2026-10-12"))
+                .andExpect(jsonPath("$[0].foodSavedCount").value(0));
+    }
+
     private org.springframework.test.web.servlet.ResultActions api(MockHttpServletRequestBuilder request, String device)
             throws Exception {
         return mockMvc.perform(request.header("X-Device-Id", device).header("X-Timezone", "America/New_York"));
@@ -303,8 +351,8 @@ class SpendingApiTest {
                 """
                 insert into ingredients (
                     id, user_id, name, quantity, unit, category, added_at, expires_at,
-                    estimated_price, status, source, created_at, updated_at)
-                values (?, ?, ?, 1, 'count', 'produce', ?, '2026-11-01', ?, ?, 'MANUAL', ?, ?)
+                    estimated_price, status, source, status_changed_at, created_at, updated_at)
+                values (?, ?, ?, 1, 'count', 'produce', ?, '2026-11-01', ?, ?, 'MANUAL', ?, ?, ?)
                 """,
                 UUID.randomUUID(),
                 userId,
@@ -312,6 +360,7 @@ class SpendingApiTest {
                 Timestamp.from(when),
                 new BigDecimal(price),
                 status,
+                Timestamp.from(when),
                 Timestamp.from(when),
                 Timestamp.from(when));
     }

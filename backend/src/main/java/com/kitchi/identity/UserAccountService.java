@@ -26,18 +26,17 @@ public class UserAccountService {
 
     @Transactional
     public Resolved resolve(UUID deviceId, String timezoneHeader) {
-        boolean headerPresent = timezoneHeader != null && !timezoneHeader.isBlank();
-        ZoneId requested = headerPresent ? parseOrUtc(timezoneHeader) : null;
+        ZoneId requested = parseValid(timezoneHeader);
         return users.findByDeviceId(deviceId)
-                .map(user -> touch(user, requested, headerPresent))
+                .map(user -> touch(user, requested))
                 .orElseGet(() -> create(deviceId, requested == null ? UTC : requested));
     }
 
-    private Resolved touch(UserAccount user, ZoneId requested, boolean headerPresent) {
-        ZoneId zone = requested == null ? safe(user.getTimezone()) : requested;
-        if (headerPresent && !zone.getId().equals(user.getTimezone())) {
-            user.setTimezone(zone.getId());
+    private Resolved touch(UserAccount user, ZoneId requested) {
+        if (requested != null && !requested.getId().equals(user.getTimezone())) {
+            user.setTimezone(requested.getId());
         }
+        ZoneId zone = requested == null ? safe(user.getTimezone()) : requested;
         return new Resolved(user.getId(), zone);
     }
 
@@ -54,16 +53,19 @@ public class UserAccountService {
         return users.findById(userId).orElseThrow();
     }
 
-    static ZoneId parseOrUtc(String raw) {
+    static ZoneId parseValid(String raw) {
+        if (raw == null || raw.isBlank()) {
+            return null;
+        }
         try {
             ZoneId zone = ZoneId.of(raw.trim());
             String id = canonical(zone);
             if (id.length() > 64) {
-                return UTC;
+                return null;
             }
             return ZoneId.of(id);
         } catch (DateTimeException exception) {
-            return UTC;
+            return null;
         }
     }
 

@@ -1,21 +1,17 @@
 "use client";
 
-import { useMemo } from "react";
 import { Mascot } from "@/components/brand/mascot";
 import { WeekFolderCard } from "@/components/home/week-folder-card";
-import { useFridgeStore, useStoreReady } from "@/store/use-fridge-store";
-import { buildWeekSummaries } from "@/lib/week";
+import { ErrorState } from "@/components/ui/query-state";
+import { useSettings, useWeeks } from "@/lib/use-journal";
 
 export function WeekGrid() {
-  const ready = useStoreReady();
-  const trips = useFridgeStore((state) => state.groceryTrips);
-  const eatingOut = useFridgeStore((state) => state.eatingOut);
-  const meals = useFridgeStore((state) => state.meals);
-  const currency = useFridgeStore((state) => state.settings.currency);
-  const summaries = useMemo(
-    () => (ready ? buildWeekSummaries(trips, eatingOut, meals) : []),
-    [ready, trips, eatingOut, meals],
-  );
+  const weeks = useWeeks();
+  const settings = useSettings();
+  const ready = !weeks.isLoading;
+  const currency = settings.data?.currency ?? "USD";
+  const summaries = weeks.data ?? [];
+  if (weeks.error) return <ErrorState error={weeks.error} onRetry={() => void weeks.refetch()} />;
 
   return (
     <section className="mt-10" aria-labelledby="weeks-heading" aria-busy={!ready}>

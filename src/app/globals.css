@@ -505,6 +505,18 @@ h3 {
   box-shadow: 1px 1px 0 var(--kitchi-navy);
 }
 
+.field {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  border-radius: 1rem;
+  border: 2.5px solid var(--kitchi-navy);
+  background: white;
+  padding: 0.55rem 0.75rem;
+  font-weight: 700;
+  color: var(--kitchi-navy);
+}
+
 .sticker-press--icon {
   width: 2.75rem;
   min-width: 2.75rem;

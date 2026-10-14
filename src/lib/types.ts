@@ -28,6 +28,8 @@ export type IngredientCategory = (typeof INGREDIENT_CATEGORIES)[number];
 
 export type ExpiryStatus = "fresh" | "soon" | "urgent";
 
+export type IngredientStatus = "ACTIVE" | "USED" | "WASTED" | "EXPIRED";
+
 export type Ingredient = {
   id: string;
   name: string;
@@ -37,6 +39,8 @@ export type Ingredient = {
   addedAt: string;
   expiresAt: string;
   estimatedPrice: number;
+  status?: IngredientStatus;
+  source?: "MANUAL" | "SCAN" | "BARCODE";
 };
 
 export type MealIngredientUse = {
@@ -58,8 +62,10 @@ export type GroceryItem = {
   id: string;
   name: string;
   quantity: number;
+  unit?: string;
   checked: boolean;
   estimatedPrice: number;
+  reason?: string | null;
 };
 
 export type GroceryTrip = {
@@ -75,7 +81,10 @@ export type EatingOutEntry = {
   date: string;
   place: string;
   amount: number;
+  note?: string | null;
 };
+
+export type BudgetStatus = "NO_BUDGET" | "UNDER" | "NEAR" | "OVER";
 
 export type Settings = {
   preferredCuisines: Cuisine[];
@@ -90,4 +99,9 @@ export type WeekSummary = {
   eatingOutTotal: number;
   foodSavedCount: number;
   moneySaved: number;
+  isCurrentWeek?: boolean;
+  eatingOutBudget?: number | null;
+  budgetStatus?: BudgetStatus;
+  wastedCount?: number;
+  wastedCost?: number;
 };

@@ -20,7 +20,7 @@ The dev profile turns on Swagger at http://localhost:8080/swagger-ui.html and se
 
 Send `X-Device-Id` (a UUID) on every `/api/v1` request. A `users` row is created for a new id. Queries are scoped to that user. Another user's ids return 404.
 
-`X-Timezone` is an optional IANA name such as `America/New_York`. A valid value is stored on the user. An invalid value is stored as `UTC`. "Today" and every Monday–Sunday week are calculated in that zone. Dates on grocery trips and eating-out entries are calendar dates. Meal times and the moment an ingredient is marked used or wasted are timestamps, converted into the user's zone before the week is chosen.
+`X-Timezone` is an optional IANA name such as `America/New_York`. Only a valid value updates the stored zone. An invalid or missing header leaves the stored zone alone (new devices start at `UTC`). "Today" and every Monday–Sunday week are calculated in that zone. Food saved, wasted, and the streak use `ingredients.status_changed_at`, so renaming an item does not move its week. CORS allows the origins in `ALLOWED_ORIGINS` (default `http://localhost:3000`).
 
 ## API
 

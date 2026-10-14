@@ -1,8 +1,9 @@
 "use client";
 
 import { Mascot } from "@/components/brand/mascot";
-import { formatExpiryLabel, getExpiryStatus, ingredientsToUseFirst } from "@/lib/expiry";
-import { useFridgeStore, useStoreReady } from "@/store/use-fridge-store";
+import { ErrorState } from "@/components/ui/query-state";
+import { formatExpiryLabel, getExpiryStatus } from "@/lib/expiry";
+import { useExpiring } from "@/lib/use-journal";
 
 const LEGEND = [
   { status: "urgent", label: "Today or expired" },
@@ -11,16 +12,17 @@ const LEGEND = [
 ] as const;
 
 export function UseFirstStrip() {
-  const ready = useStoreReady();
-  const ingredients = useFridgeStore((state) => state.ingredients);
-  const urgent = ready ? ingredientsToUseFirst(ingredients) : [];
+  const expiring = useExpiring();
+  const ready = !expiring.isLoading;
+  const urgent = expiring.data ?? [];
   const lead = urgent[0];
+  if (expiring.error) return <ErrorState error={expiring.error} onRetry={() => void expiring.refetch()} />;
 
   return (
     <section className="mt-8" aria-labelledby="use-first-heading" aria-busy={!ready}>
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="text-xs font-extrabold tracking-[0.14em] text-kitchi-red uppercase">Fridge Rescue</p>
+          <p className="text-xs font-extrabold tracking-[0.14em] text-kitchi-red uppercase">Kitchi</p>
           <h2 id="use-first-heading" className="mt-1 text-3xl text-kitchi-navy">
             Use these first
           </h2>

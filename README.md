@@ -42,6 +42,27 @@ Weeks run Monday through Sunday in the local timezone. Green means fresh, yellow
 
 The mascot is the pot cropped from `public/brand/logo-kitchi.png`. That file already has a transparent background, so the cream page shows through the sidebar lockup.
 
+## Run the API and the app together
+
+Postgres, then the API, then the site. `ALLOWED_ORIGINS` defaults to `http://localhost:3000`. Leave `NEXT_PUBLIC_API_URL` unset and the site stays in demo mode, with the yellow sticker and the local journal.
+
+```bash
+cp .env.example .env
+docker compose up -d
+set -a && source .env && set +a
+cd backend && mvn spring-boot:run -Dspring-boot.run.profiles=dev
+```
+
+In another terminal, from the repo root:
+
+```bash
+cp frontend/.env.example .env.local
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. The first visit creates an anonymous device id, the dev API seeds a fake pantry, and Home shows week folders, the use-these-first strip, and a greeting from that data. Pantry, manual add, grocery checkout, spending, and settings read and write the same account.
+
 ## API
 
-The Java API lives in `backend/`. See `backend/README.md` for Postgres, the dev server, tests, and the spending endpoints. The pages still read the local journal until they are wired to that API.
+The Java API lives in `backend/`. See `backend/README.md` for env vars, tests, and the spending endpoints.

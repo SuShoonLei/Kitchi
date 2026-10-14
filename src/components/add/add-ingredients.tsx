@@ -3,6 +3,7 @@
 import { useState, type KeyboardEvent } from "react";
 import { Mascot } from "@/components/brand/mascot";
 import { PageFrame, PageHeader } from "@/components/ui/page-header";
+import { ManualForm } from "@/components/add/manual-form";
 import { Card, Chip } from "@/components/ui/sticker";
 
 const TABS = [
@@ -71,11 +72,11 @@ export function AddIngredients() {
             aria-labelledby="add-tab-manual"
             hidden={tab !== "manual"}
           >
-            <Mascot mood="happy" size="lg" className="mx-auto" />
-            <h2 className="mt-3 text-2xl">Write it in by hand</h2>
+            <h2 className="text-2xl">Write it in by hand</h2>
             <p className="mx-auto mt-2 max-w-md text-kitchi-navy/75">
-              Name, quantity, and a use-by date will go on a small card. The form arrives with the rest of the pantry tools.
+              Name, quantity, and a use-by date land in the pantry after you check them.
             </p>
+            <ManualForm />
           </div>
         </Card>
       </div>

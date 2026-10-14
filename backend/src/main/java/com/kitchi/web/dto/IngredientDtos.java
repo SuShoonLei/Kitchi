@@ -48,5 +48,6 @@ public final class IngredientDtos {
             @Size(min = 1, max = 32) @Pattern(regexp = "^[^\\p{Cntrl}]+$") String unit,
             IngredientCategory category,
             LocalDate expiresAt,
-            @DecimalMin("0.00") @DecimalMax("9999.99") BigDecimal estimatedPrice) {}
+            @DecimalMin("0.00") @DecimalMax("9999.99") BigDecimal estimatedPrice,
+            IngredientStatus status) {}
 }

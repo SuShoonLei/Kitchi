@@ -19,7 +19,7 @@ export function WeekFolderCard({
   currency: string;
 }) {
   const reduce = useReducedMotion();
-  const current = isCurrentWeek(summary.weekStart);
+  const current = summary.isCurrentWeek ?? isCurrentWeek(summary.weekStart);
   const label = formatWeekLabel(summary.weekStart, summary.weekEnd);
   const spent = summary.groceryTotal + summary.eatingOutTotal;
   const savedLabel =

@@ -39,13 +39,14 @@ public class SpendingQuery {
                 GROUP BY 1
             ),
             pantry AS (
-                SELECT date_trunc('week', (updated_at AT TIME ZONE :zone))::date AS week_start,
+                SELECT date_trunc('week', (status_changed_at AT TIME ZONE :zone))::date AS week_start,
                        COUNT(*) FILTER (WHERE status = 'USED') AS food_saved_count,
                        COUNT(*) FILTER (WHERE status = 'WASTED') AS wasted_count,
                        SUM(estimated_price) FILTER (WHERE status = 'WASTED') AS wasted_cost
                 FROM ingredients
                 WHERE user_id = :userId
                   AND status IN ('USED', 'WASTED')
+                  AND status_changed_at IS NOT NULL
                 GROUP BY 1
             )
             SELECT weeks.week_start,
@@ -110,12 +111,13 @@ public class SpendingQuery {
                 )::date AS day
             ),
             marks AS (
-                SELECT (updated_at AT TIME ZONE :zone)::date AS day,
+                SELECT (status_changed_at AT TIME ZONE :zone)::date AS day,
                        bool_or(status = 'USED') AS has_used,
                        bool_or(status = 'WASTED') AS has_wasted
                 FROM ingredients
                 WHERE user_id = :userId
                   AND status IN ('USED', 'WASTED')
+                  AND status_changed_at IS NOT NULL
                 GROUP BY 1
             ),
             flags AS (

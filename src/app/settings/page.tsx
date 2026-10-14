@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { AboutKitchi } from "@/components/settings/about-kitchi";
-import { BudgetPlaceholder } from "@/components/settings/budget-placeholder";
-import { CuisineSelector } from "@/components/settings/cuisine-selector";
+import { SettingsForm } from "@/components/settings/settings-form";
 import { PageFrame, PageHeader } from "@/components/ui/page-header";
 
 export const metadata: Metadata = {
@@ -16,8 +15,7 @@ export default function SettingsPage() {
         title="Settings"
         description="Tell Kitchi which cuisines belong in the rotation. The eating-out budget sits beside them."
       />
-      <CuisineSelector />
-      <BudgetPlaceholder />
+      <SettingsForm />
       <AboutKitchi />
     </PageFrame>
   );

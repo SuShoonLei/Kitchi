@@ -46,6 +46,8 @@ public class Ingredient extends BaseEntity {
     @Column(nullable = false, length = 16)
     private IngredientStatus status;
 
+    private Instant statusChangedAt;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 16)
     private IngredientSource source;
@@ -134,8 +136,21 @@ public class Ingredient extends BaseEntity {
         return status;
     }
 
+    public Instant getStatusChangedAt() {
+        return statusChangedAt;
+    }
+
     public void setStatus(IngredientStatus status) {
+        if (this.status != status && marksAMoment(status)) {
+            this.statusChangedAt = Instant.now();
+        }
         this.status = status;
+    }
+
+    private static boolean marksAMoment(IngredientStatus status) {
+        return status == IngredientStatus.USED
+                || status == IngredientStatus.WASTED
+                || status == IngredientStatus.EXPIRED;
     }
 
     public IngredientSource getSource() {

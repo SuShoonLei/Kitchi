@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { SpendingPlaceholder } from "@/components/spending/spending-placeholder";
+import { SpendingView } from "@/components/spending/spending-view";
+import { SkeletonGrid } from "@/components/ui/query-state";
 
 export const metadata: Metadata = {
   title: "Spending",
@@ -8,8 +9,8 @@ export const metadata: Metadata = {
 
 export default function SpendingPage() {
   return (
-    <Suspense fallback={null}>
-      <SpendingPlaceholder />
+    <Suspense fallback={<SkeletonGrid />}>
+      <SpendingView />
     </Suspense>
   );
 }

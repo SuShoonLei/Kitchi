@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
+import { isDemoMode } from "@/lib/config";
 import { createId } from "@/lib/format";
 import {
   createSeedEatingOut,
@@ -34,10 +35,13 @@ type FridgeState = {
   removeIngredient: (id: string) => void;
   addMeal: (meal: Omit<Meal, "id" | "cookedAt"> & { cookedAt?: string }) => void;
   addGroceryItem: (item: Omit<GroceryItem, "id" | "checked">) => void;
+  updateGroceryItem: (id: string, patch: Partial<Omit<GroceryItem, "id">>) => void;
   toggleGroceryItem: (id: string) => void;
   removeGroceryItem: (id: string) => void;
   addGroceryTrip: (trip: Omit<GroceryTrip, "id">) => void;
   addEatingOut: (entry: Omit<EatingOutEntry, "id">) => void;
+  updateEatingOut: (id: string, patch: Partial<Omit<EatingOutEntry, "id">>) => void;
+  removeEatingOut: (id: string) => void;
   toggleCuisine: (cuisine: Cuisine) => void;
   setEatingOutBudget: (amount: number | null) => void;
   setCurrency: (currency: string) => void;
@@ -114,6 +118,10 @@ export const useFridgeStore = create<FridgeState>()(
         set((state) => ({
           groceryList: [...state.groceryList, { ...item, id: createId("list"), checked: false }],
         })),
+      updateGroceryItem: (id, patch) =>
+        set((state) => ({
+          groceryList: state.groceryList.map((item) => (item.id === id ? { ...item, ...patch } : item)),
+        })),
       toggleGroceryItem: (id) =>
         set((state) => ({
           groceryList: state.groceryList.map((item) =>
@@ -131,6 +139,14 @@ export const useFridgeStore = create<FridgeState>()(
       addEatingOut: (entry) =>
         set((state) => ({
           eatingOut: [{ ...entry, id: createId("out") }, ...state.eatingOut],
+        })),
+      updateEatingOut: (id, patch) =>
+        set((state) => ({
+          eatingOut: state.eatingOut.map((entry) => (entry.id === id ? { ...entry, ...patch } : entry)),
+        })),
+      removeEatingOut: (id) =>
+        set((state) => ({
+          eatingOut: state.eatingOut.filter((entry) => entry.id !== id),
         })),
       toggleCuisine: (cuisine) =>
         set((state) => {
@@ -158,9 +174,11 @@ export const useFridgeStore = create<FridgeState>()(
 );
 
 export function useStoreReady(): boolean {
-  const [ready, setReady] = useState(false);
+  const demo = isDemoMode();
+  const [ready, setReady] = useState(!demo);
 
   useEffect(() => {
+    if (!demo) return;
     let active = true;
     void ensureJournal().finally(() => {
       if (active) setReady(true);
@@ -168,7 +186,7 @@ export function useStoreReady(): boolean {
     return () => {
       active = false;
     };
-  }, []);
+  }, [demo]);
 
   return ready;
 }

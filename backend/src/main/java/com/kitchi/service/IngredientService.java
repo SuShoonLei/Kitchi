@@ -107,6 +107,9 @@ public class IngredientService {
         if (patch.estimatedPrice() != null) {
             ingredient.setEstimatedPrice(patch.estimatedPrice());
         }
+        if (patch.status() != null) {
+            ingredient.setStatus(patch.status());
+        }
         return toResponse(ingredient);
     }
 
