@@ -1,0 +1,12 @@
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+kitchi:
+  errors:
+    expose-details: true
+  seed-on-create: false
+  rate-limit:
+    writes-per-minute: 10000

@@ -23,6 +23,19 @@
 # misc
 .DS_Store
 *.pem
+*.key
+*.log
+logs/
+uploads/
+*.sql.gz
+*.dump
+
+# java / ide
+target/
+.idea/
+*.iml
+application-local.yml
+application-*-secret.yml
 
 # debug
 npm-debug.log*
@@ -30,8 +43,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# env files. Examples with placeholders are safe to commit.
+.env
+.env.*
+!.env.example
 
 # vercel
 .vercel

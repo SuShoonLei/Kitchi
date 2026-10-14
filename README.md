@@ -41,3 +41,7 @@ src/store                Zustand store, persisted to localStorage under the key 
 Weeks run Monday through Sunday in the local timezone. Green means fresh, yellow means use within three days, and red means use today or already expired.
 
 The mascot is the pot cropped from `public/brand/logo-kitchi.png`. That file already has a transparent background, so the cream page shows through the sidebar lockup.
+
+## API
+
+The Java API lives in `backend/`. See `backend/README.md` for Postgres, the dev server, tests, and the spending endpoints. The pages still read the local journal until they are wired to that API.

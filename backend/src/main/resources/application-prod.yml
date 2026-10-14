@@ -1,0 +1,16 @@
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+kitchi:
+  errors:
+    expose-details: false
+  seed-on-create: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
