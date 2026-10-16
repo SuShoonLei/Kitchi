@@ -45,6 +45,8 @@ type FridgeState = {
   toggleCuisine: (cuisine: Cuisine) => void;
   setEatingOutBudget: (amount: number | null) => void;
   setCurrency: (currency: string) => void;
+  loadSampleData: () => void;
+  clearJournal: () => void;
 };
 
 let journalReady: Promise<void> | null = null;
@@ -164,6 +166,24 @@ export const useFridgeStore = create<FridgeState>()(
         set((state) => ({
           settings: { ...state.settings, currency },
         })),
+      loadSampleData: () =>
+        set({
+          ingredients: createSeedIngredients(),
+          meals: createSeedMeals(),
+          groceryList: createSeedGroceryList(),
+          groceryTrips: createSeedGroceryTrips(),
+          eatingOut: createSeedEatingOut(),
+          settings: createSeedSettings(),
+        }),
+      clearJournal: () =>
+        set({
+          ingredients: [],
+          meals: [],
+          groceryList: [],
+          groceryTrips: [],
+          eatingOut: [],
+          settings: createSeedSettings(),
+        }),
     }),
     {
       name: "kitchi",

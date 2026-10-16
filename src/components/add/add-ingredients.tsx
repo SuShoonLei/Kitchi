@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, type KeyboardEvent } from "react";
-import { Mascot } from "@/components/brand/mascot";
-import { PageFrame, PageHeader } from "@/components/ui/page-header";
 import { ManualForm } from "@/components/add/manual-form";
+import { ScanPanel } from "@/components/add/scan-panel";
+import { PageFrame, PageHeader } from "@/components/ui/page-header";
 import { Card, Chip } from "@/components/ui/sticker";
 
 const TABS = [
@@ -31,7 +31,7 @@ export function AddIngredients() {
       <PageHeader
         eyebrow="Bring food in"
         title="Add or scan"
-        description="Add ingredients by hand for now. Camera scanning is on the way."
+        description="Scan a barcode or photo, or type it in. Everything waits for your confirm before it hits the pantry."
       />
       <div className="mt-8" onKeyDown={onKeyDown}>
         <div role="tablist" aria-label="How to add ingredients" className="flex gap-2">
@@ -53,18 +53,14 @@ export function AddIngredients() {
             );
           })}
         </div>
-        <Card className="mt-4 px-6 py-10 text-center">
+        <Card className="mt-4 px-6 py-8 text-center">
           <div
             role="tabpanel"
             id="add-panel-scan"
             aria-labelledby="add-tab-scan"
             hidden={tab !== "scan"}
           >
-            <Mascot mood="cooking" size="lg" className="mx-auto" />
-            <h2 className="mt-3 text-2xl">Camera scanning is coming soon</h2>
-            <p className="mx-auto mt-2 max-w-md text-kitchi-navy/75">
-              Camera scanning is coming soon. Add items by hand for now.
-            </p>
+            <ScanPanel />
           </div>
           <div
             role="tabpanel"

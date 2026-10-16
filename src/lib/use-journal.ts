@@ -278,8 +278,13 @@ export function useGroceryActions() {
   };
 
   const create = useMutation({
-    mutationFn: (input: { name: string; quantity: number; unit: string; estimatedPrice: number }) =>
-      source.createGroceryItem(input),
+    mutationFn: (input: {
+      name: string;
+      quantity: number;
+      unit: string;
+      estimatedPrice: number;
+      reason?: string;
+    }) => source.createGroceryItem(input),
     onSuccess: refresh,
   });
 

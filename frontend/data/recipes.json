@@ -1,0 +1,4753 @@
+{
+  "recipes": [
+    {
+      "id": "burmese-garlic-oil-noodles",
+      "name": "Garlic oil noodles",
+      "cuisine": "Burmese",
+      "description": "Slippery noodles tossed in fragrant garlic oil with a squeeze of lime.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Egg noodles",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 6,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 3,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the noodles until just tender, then drain and rinse briefly.",
+        "Warm oil in a pan and cook sliced garlic until golden and crisp.",
+        "Toss noodles into the pan with soy sauce and a pinch of salt.",
+        "Fold in chopped green onion and finish with lime if you like."
+      ]
+    },
+    {
+      "id": "burmese-tomato-fish-skillet",
+      "name": "Tomato fish skillet",
+      "cuisine": "Burmese",
+      "description": "Gentle white fish simmered in a bright tomato and onion sauce.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "White fish",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Soft-cook onion in oil, then add garlic, ginger, and turmeric.",
+        "Stir in chopped tomatoes and simmer until saucy.",
+        "Nestle fish pieces into the sauce and cover until cooked through.",
+        "Season with salt and scatter cilantro before serving."
+      ]
+    },
+    {
+      "id": "burmese-chickpea-tofu-scramble",
+      "name": "Chickpea tofu scramble",
+      "cuisine": "Burmese",
+      "description": "Crumbled tofu with turmeric, onion, and chickpeas for a filling plate.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Firm tofu",
+          "quantity": 14,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chickpeas",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Crumble tofu into a hot oiled pan with onion and garlic.",
+        "Dust with turmeric, salt, and pepper, then stir until lightly golden.",
+        "Add drained chickpeas and warm through.",
+        "Finish with green onion and eat over rice if you have it."
+      ]
+    },
+    {
+      "id": "burmese-coconut-chicken-noodles",
+      "name": "Coconut chicken noodle bowl",
+      "cuisine": "Burmese",
+      "description": "Soft noodles in a mild coconut broth with shredded chicken.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "medium",
+      "tags": [
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Coconut milk",
+          "quantity": 1,
+          "unit": "can",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chicken broth",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Egg noodles",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown chicken pieces with onion, garlic, and ginger in a pot.",
+        "Pour in coconut milk and broth, then simmer until chicken is tender.",
+        "Shred the meat, return it to the pot, and season with fish sauce.",
+        "Cook noodles separately, divide into bowls, and ladle the broth over.",
+        "Squeeze lime on top if you want extra brightness."
+      ]
+    },
+    {
+      "id": "burmese-cabbage-pork-stir-fry",
+      "name": "Cabbage pork stir-fry",
+      "cuisine": "Burmese",
+      "description": "Crisp cabbage and ground meat cooked hot with garlic and soy.",
+      "timeMinutes": 20,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Ground meat",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green cabbage",
+          "quantity": 0.5,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown the ground meat in oil, breaking it into small bits.",
+        "Add garlic, then piles of shredded cabbage.",
+        "Stir-fry until cabbage softens but still has bite.",
+        "Season with soy sauce and salt, then top with green onion."
+      ]
+    },
+    {
+      "id": "burmese-spinach-egg-curry",
+      "name": "Spinach egg curry",
+      "cuisine": "Burmese",
+      "description": "Wilted spinach in a light curry with soft boiled eggs.",
+      "timeMinutes": 30,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Baby spinach",
+          "quantity": 6,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Yogurt",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Boil eggs until just set, cool, and peel.",
+        "Cook onion and garlic in oil with turmeric and cumin.",
+        "Add spinach in handfuls until wilted, then season with salt.",
+        "Nestle eggs into the greens and warm through.",
+        "Swirl yogurt at the end if you want it creamier."
+      ]
+    },
+    {
+      "id": "thai-basil-chicken",
+      "name": "Thai basil chicken",
+      "cuisine": "Thai",
+      "description": "Peppery basil and garlic with ground chicken over hot rice.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Ground chicken",
+          "quantity": 350,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Thai basil",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 5,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green chili",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Jasmine rice",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Fry garlic and chili in oil until fragrant.",
+        "Add ground chicken and cook until no pink remains.",
+        "Season with fish sauce, soy sauce, and sugar.",
+        "Kill the heat and fold in Thai basil until wilted.",
+        "Serve over rice if you have a pot ready."
+      ]
+    },
+    {
+      "id": "thai-tom-yum-shrimp",
+      "name": "Quick tom yum shrimp",
+      "cuisine": "Thai",
+      "description": "A hot-sour broth with shrimp, mushrooms, and lime.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "medium",
+      "tags": [
+        "quick",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemongrass",
+          "quantity": 1,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Makrut lime leaves",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Red chili",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chicken broth",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Simmer broth with bruised lemongrass, lime leaves, and chili.",
+        "Add mushrooms and cook a few minutes.",
+        "Slip in shrimp until they turn pink.",
+        "Season with fish sauce and lime juice.",
+        "Scatter cilantro and serve steaming."
+      ]
+    },
+    {
+      "id": "thai-green-curry-veg",
+      "name": "Green curry vegetables",
+      "cuisine": "Thai",
+      "description": "Coconut green curry loaded with eggplant and beans.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Coconut milk",
+          "quantity": 1,
+          "unit": "can",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggplant",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green beans",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bell pepper",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Thai basil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Brown sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Jasmine rice",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Warm a splash of coconut milk in a pot until it looks oily.",
+        "Add remaining coconut milk, fish sauce, and brown sugar.",
+        "Simmer eggplant, beans, and pepper until tender.",
+        "Fold in Thai basil and serve over rice."
+      ]
+    },
+    {
+      "id": "thai-pad-thai-tofu",
+      "name": "Tofu pad Thai night",
+      "cuisine": "Thai",
+      "description": "Rice noodles with tofu, egg, and a sweet-sour tamarind glaze.",
+      "timeMinutes": 35,
+      "servings": 2,
+      "difficulty": "medium",
+      "tags": [
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Rice noodles",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Firm tofu",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bean sprouts",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 3,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Tamarind",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Peanuts",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Soak noodles until pliable, then drain.",
+        "Pan-fry tofu cubes until golden and set aside.",
+        "Scramble eggs in the pan, add noodles and the tamarind-fish-sugar mix.",
+        "Toss with tofu, sprouts, and green onion.",
+        "Top with crushed peanuts and lime wedges."
+      ]
+    },
+    {
+      "id": "thai-garlic-shrimp-rice",
+      "name": "Garlic shrimp fried rice",
+      "cuisine": "Thai",
+      "description": "Day-old rice wok-tossed with shrimp and plenty of garlic.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Jasmine rice",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 5,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "White pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Scramble eggs in oil, push aside, then cook shrimp and garlic.",
+        "Add cold rice and break up clumps over high heat.",
+        "Season with soy sauce and white pepper.",
+        "Finish with green onion and serve hot."
+      ]
+    },
+    {
+      "id": "thai-cucumber-salad",
+      "name": "Cool cucumber salad",
+      "cuisine": "Thai",
+      "description": "Crisp cucumber with chili, fish sauce, and lime for a side dish.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Cucumber",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Shallots",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Red chili",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Peanuts",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Slice cucumber and shallots thin.",
+        "Whisk fish sauce, lime juice, sugar, and sliced chili.",
+        "Toss vegetables in the dressing.",
+        "Top with peanuts and cilantro if using."
+      ]
+    },
+    {
+      "id": "korean-kimchi-fried-rice",
+      "name": "Kimchi fried rice",
+      "cuisine": "Korean",
+      "description": "Sour kimchi and rice crisped in a hot pan with a fried egg.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Jasmine rice",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Kimchi",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Gochujang",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Chop kimchi and fry it in oil until edges darken.",
+        "Add rice and gochujang, pressing so some grains crisp.",
+        "Drizzle sesame oil and fold in green onion.",
+        "Fry eggs separately and slide on top with sesame seeds."
+      ]
+    },
+    {
+      "id": "korean-bulgogi-style-beef",
+      "name": "Weeknight bulgogi skillet",
+      "cuisine": "Korean",
+      "description": "Thin beef steak glazed with soy, garlic, and a touch of sugar.",
+      "timeMinutes": 25,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Beef steak",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Slice steak thin across the grain.",
+        "Mix soy sauce, sugar, garlic, and sesame oil, then coat the beef.",
+        "Sear onion strips, then the beef in a hot pan until browned.",
+        "Scatter green onion and sesame seeds."
+      ]
+    },
+    {
+      "id": "korean-tofu-doenjang-stew",
+      "name": "Soft tofu doenjang stew",
+      "cuisine": "Korean",
+      "description": "A bubbling bowl of soft tofu in savory soybean paste broth.",
+      "timeMinutes": 30,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Soft tofu",
+          "quantity": 1,
+          "unit": "block",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Doenjang",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Zucchini",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Vegetable broth",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Gochugaru",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Dissolve doenjang into simmering broth with garlic.",
+        "Add onion and zucchini and cook until soft.",
+        "Spoon in soft tofu in big chunks.",
+        "Crack an egg on top if you like, then finish with green onion and chili flakes."
+      ]
+    },
+    {
+      "id": "korean-spinach-side",
+      "name": "Sesame spinach side",
+      "cuisine": "Korean",
+      "description": "Blanched spinach dressed with sesame, garlic, and soy.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Baby spinach",
+          "quantity": 8,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Bring a pot of water to a boil and blanch the spinach briefly.",
+        "Drain, rinse with cold water, and squeeze out excess moisture.",
+        "Toss with minced garlic, soy sauce, sesame oil, and a pinch of salt.",
+        "Sprinkle sesame seeds and serve cool or at room temperature."
+      ]
+    },
+    {
+      "id": "korean-japchae-lite",
+      "name": "Glass noodle japchae lite",
+      "cuisine": "Korean",
+      "description": "Chewy glass noodles with spinach, carrot, and mushrooms.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "medium",
+      "tags": [
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Glass noodles",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Baby spinach",
+          "quantity": 4,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Carrots",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak or boil glass noodles until chewy, then drain.",
+        "Stir-fry onion, carrot, and mushrooms separately until tender.",
+        "Wilt spinach quickly and season everything with soy, sugar, and sesame oil.",
+        "Toss noodles with the vegetables until glossy."
+      ]
+    },
+    {
+      "id": "japanese-miso-soup-tofu",
+      "name": "Weeknight miso soup",
+      "cuisine": "Japanese",
+      "description": "Comforting miso broth with soft tofu and wakame.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Miso",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soft tofu",
+          "quantity": 0.5,
+          "unit": "block",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Wakame",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Dashi",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Warm dashi gently and soak wakame until soft.",
+        "Add cubed tofu to heat through.",
+        "Turn off the heat and whisk in miso until smooth.",
+        "Top with green onion and serve right away."
+      ]
+    },
+    {
+      "id": "japanese-teriyaki-salmon",
+      "name": "Teriyaki salmon pan",
+      "cuisine": "Japanese",
+      "description": "Salmon glazed in a sticky soy-mirin sauce.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Salmon",
+          "quantity": 2,
+          "unit": "fillet",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mirin",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 1,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Sesame seeds",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Sear salmon skin-side down until crisp, then flip.",
+        "Mix soy sauce, mirin, sugar, and garlic.",
+        "Pour the glaze into the pan and reduce until sticky.",
+        "Baste the fish and finish with green onion and sesame."
+      ]
+    },
+    {
+      "id": "japanese-oyakodon",
+      "name": "Chicken egg rice bowl",
+      "cuisine": "Japanese",
+      "description": "Soft-set eggs and chicken simmered over a bowl of rice.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mirin",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Dashi",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Jasmine rice",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 1,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Simmer sliced onion and chicken in dashi, soy, and mirin.",
+        "When chicken is cooked, pour beaten eggs over the top.",
+        "Cover until eggs are softly set.",
+        "Scoop over hot rice and garnish with green onion."
+      ]
+    },
+    {
+      "id": "japanese-ginger-pork",
+      "name": "Ginger pork plates",
+      "cuisine": "Japanese",
+      "description": "Thin pork with a punchy ginger-soy pan sauce.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Pork chops",
+          "quantity": 350,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mirin",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green cabbage",
+          "quantity": 0.25,
+          "unit": "head",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Slice pork thin and sear quickly in oil.",
+        "Stir ginger, soy, mirin, and sugar, then pour into the pan.",
+        "Toss until the meat looks glossy.",
+        "Serve with shredded cabbage on the side."
+      ]
+    },
+    {
+      "id": "japanese-veggie-udon",
+      "name": "Vegetable udon stir",
+      "cuisine": "Japanese",
+      "description": "Thick udon noodles with bok choy and mushrooms.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Udon",
+          "quantity": 2,
+          "unit": "pack",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bok choy",
+          "quantity": 2,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mirin",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": true,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Loosen udon in hot water and drain.",
+        "Stir-fry mushrooms and garlic, then add bok choy.",
+        "Toss noodles with soy and mirin until coated.",
+        "Finish with a drop of sesame oil if you like."
+      ]
+    },
+    {
+      "id": "chinese-garlic-bok-choy",
+      "name": "Garlic bok choy",
+      "cuisine": "Chinese",
+      "description": "Crisp-tender bok choy blasted with garlic oil.",
+      "timeMinutes": 12,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Bok choy",
+          "quantity": 4,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Halve bok choy and rinse well.",
+        "Sear cut-side down in hot oil, then flip.",
+        "Add garlic and a splash of water to steam briefly.",
+        "Season with soy sauce and salt."
+      ]
+    },
+    {
+      "id": "chinese-egg-drop-spinach",
+      "name": "Egg drop spinach soup",
+      "cuisine": "Chinese",
+      "description": "Silky egg ribbons in a light broth with spinach.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Baby spinach",
+          "quantity": 3,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chicken broth",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cornstarch",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sesame oil",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "White pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 1,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Bring broth to a simmer and season with salt and white pepper.",
+        "Stir cornstarch with a spoon of water and thicken the broth lightly.",
+        "Drizzle beaten eggs in while stirring to make ribbons.",
+        "Add spinach to wilt, then sesame oil and green onion."
+      ]
+    },
+    {
+      "id": "chinese-mapo-tofu-lite",
+      "name": "Weeknight mapo tofu",
+      "cuisine": "Chinese",
+      "description": "Soft tofu in a chili-oil sauce with a little ground meat.",
+      "timeMinutes": 25,
+      "servings": 3,
+      "difficulty": "medium",
+      "tags": [
+        "one-pan",
+        "spicy"
+      ],
+      "ingredients": [
+        {
+          "name": "Soft tofu",
+          "quantity": 1,
+          "unit": "block",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ground meat",
+          "quantity": 150,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sichuan peppercorns",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown ground meat with garlic and ginger.",
+        "Add chili oil, soy sauce, and crushed Sichuan pepper.",
+        "Gently slide in tofu cubes and simmer.",
+        "Top with green onion and eat over rice."
+      ]
+    },
+    {
+      "id": "chinese-tomato-egg",
+      "name": "Tomato egg stir-fry",
+      "cuisine": "Chinese",
+      "description": "Soft scrambled eggs hugged by juicy tomatoes.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Scramble eggs softly and set aside.",
+        "Cook chopped tomatoes with salt and sugar until saucy.",
+        "Return eggs and fold gently.",
+        "Finish with green onion."
+      ]
+    },
+    {
+      "id": "chinese-soy-chicken-thighs",
+      "name": "Soy braised chicken thighs",
+      "cuisine": "Chinese",
+      "description": "Chicken thighs simmered in soy, ginger, and a hint of five-spice.",
+      "timeMinutes": 40,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 4,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 3,
+          "unit": "slice",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 3,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Five-spice powder",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Shaoxing wine",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown chicken thighs in oil.",
+        "Add ginger, garlic, soy sauce, sugar, five-spice, and a splash of water.",
+        "Cover and simmer until tender, turning once.",
+        "Reduce the sauce and scatter green onion."
+      ]
+    },
+    {
+      "id": "chinese-fried-rice-leftovers",
+      "name": "Fridge fried rice",
+      "cuisine": "Chinese",
+      "description": "Cold rice revived with egg, peas, and whatever greens you have.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Jasmine rice",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Eggs",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green peas",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Carrots",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "White pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Scramble eggs and set aside.",
+        "Stir-fry carrot and peas, then add cold rice.",
+        "Season with soy sauce and white pepper.",
+        "Fold eggs and green onion back in."
+      ]
+    },
+    {
+      "id": "indian-dal-tadka",
+      "name": "Quick red lentil dal",
+      "cuisine": "Indian",
+      "description": "Soft red lentils finished with cumin and garlic oil.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pot",
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "name": "Red lentils",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Simmer rinsed lentils with turmeric until soft and porridge-like.",
+        "In a small pan, bloom cumin and garlic in oil, then add onion and tomato.",
+        "Stir the tempered spices into the dal and salt to taste.",
+        "Finish with cilantro and lime."
+      ]
+    },
+    {
+      "id": "indian-palak-paneer-lite",
+      "name": "Spinach paneer skillet",
+      "cuisine": "Indian",
+      "description": "Paneer cubes in a quick spinach and onion sauce.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Baby spinach",
+          "quantity": 8,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Heavy cream",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown paneer cubes lightly and set aside.",
+        "Cook onion, garlic, and ginger with cumin and garam masala.",
+        "Wilt spinach, then blend or chop into a sauce.",
+        "Return paneer, add cream if using, and warm through."
+      ]
+    },
+    {
+      "id": "indian-chicken-tikka-skillet",
+      "name": "Yogurt chicken skillet",
+      "cuisine": "Indian",
+      "description": "Chicken thighs marinated in yogurt and spices, then pan-cooked.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Coat chicken in yogurt and spices; rest 10 minutes if you can.",
+        "Sear in a hot pan until browned on both sides.",
+        "Lower heat, cover, and finish cooking through.",
+        "Squeeze lemon over and rest briefly before serving."
+      ]
+    },
+    {
+      "id": "indian-chana-masala",
+      "name": "Chickpea tomato masala",
+      "cuisine": "Indian",
+      "description": "Chickpeas simmered in a spiced tomato gravy.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Chickpeas",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Canned tomatoes",
+          "quantity": 1,
+          "unit": "can",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cook onion until golden, then add garlic, ginger, and spices.",
+        "Pour in tomatoes and simmer until thick.",
+        "Add chickpeas and a splash of water; cook 10 minutes.",
+        "Salt to taste and top with cilantro."
+      ]
+    },
+    {
+      "id": "indian-aloo-gobi",
+      "name": "Potato cauliflower sabzi",
+      "cuisine": "Indian",
+      "description": "Dry-spiced potatoes and cauliflower for a hearty side or main.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cauliflower",
+          "quantity": 0.5,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garam masala",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cube potatoes and break cauliflower into florets.",
+        "Fry cumin in oil, then onion.",
+        "Add vegetables with turmeric and salt; cover to steam-cook.",
+        "Uncover to dry out, dust garam masala, and add cilantro."
+      ]
+    },
+    {
+      "id": "indian-egg-bhurji",
+      "name": "Spiced scrambled eggs",
+      "cuisine": "Indian",
+      "description": "Eggs scrambled with onion, tomato, and chili for breakfast or dinner.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green chili",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Turmeric",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Soft-cook onion, tomato, and chili in oil.",
+        "Add turmeric and salt.",
+        "Pour in beaten eggs and scramble softly.",
+        "Finish with cilantro."
+      ]
+    },
+    {
+      "id": "italian-aglio-e-olio",
+      "name": "Garlic chili spaghetti",
+      "cuisine": "Italian",
+      "description": "Spaghetti slicked with garlic, chili flakes, and olive oil.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Spaghetti",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 5,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili flakes",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Parsley",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Parmesan",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Boil spaghetti in well-salted water until al dente.",
+        "Warm olive oil with sliced garlic and chili flakes until fragrant.",
+        "Toss pasta with the oil and a splash of cooking water.",
+        "Add parsley and Parmesan if you have them."
+      ]
+    },
+    {
+      "id": "italian-tomato-basil-pasta",
+      "name": "Fresh tomato basil pasta",
+      "cuisine": "Italian",
+      "description": "Ripe tomatoes and basil melted into a quick pasta sauce.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Penne",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Basil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Parmesan",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cook pasta until just tender.",
+        "Sizzle garlic in olive oil, then add chopped tomatoes.",
+        "Simmer until saucy and season with salt and pepper.",
+        "Toss pasta with sauce and torn basil; add Parmesan."
+      ]
+    },
+    {
+      "id": "italian-caprese-salad",
+      "name": "Caprese plate",
+      "cuisine": "Italian",
+      "description": "Tomatoes, mozzarella, and basil with a drizzle of oil.",
+      "timeMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Roma tomatoes",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mozzarella",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Basil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Balsamic vinegar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Slice tomatoes and mozzarella.",
+        "Layer with basil leaves on a plate.",
+        "Drizzle olive oil and season.",
+        "Add a touch of balsamic if you like."
+      ]
+    },
+    {
+      "id": "italian-mushroom-risotto",
+      "name": "Mushroom risotto",
+      "cuisine": "Italian",
+      "description": "Creamy arborio rice with browned mushrooms.",
+      "timeMinutes": 40,
+      "servings": 3,
+      "difficulty": "medium",
+      "tags": [
+        "vegetarian",
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Arborio rice",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Vegetable broth",
+          "quantity": 4,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Parmesan",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown mushrooms in oil and set aside.",
+        "Soft-cook onion and garlic in butter, then toast the rice.",
+        "Add warm broth a ladle at a time, stirring until creamy.",
+        "Fold mushrooms back in with Parmesan and salt."
+      ]
+    },
+    {
+      "id": "italian-sausage-peppers",
+      "name": "Sausage and peppers",
+      "cuisine": "Italian",
+      "description": "Browned sausages with sweet peppers and onion.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Sausages",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bell pepper",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Oregano",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Brown sausages in olive oil, then set aside.",
+        "Cook peppers and onion until soft and sweet.",
+        "Add garlic and oregano, then return sausages.",
+        "Cover briefly to finish cooking and season."
+      ]
+    },
+    {
+      "id": "italian-tuna-white-bean",
+      "name": "Tuna white bean bowl",
+      "cuisine": "Italian",
+      "description": "No-cook bowl of tuna, beans, lemon, and herbs.",
+      "timeMinutes": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "name": "Canned tuna",
+          "quantity": 1,
+          "unit": "can",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cannellini beans",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Parsley",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Red onion",
+          "quantity": 0.25,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Drain tuna and beans into a bowl.",
+        "Dress with olive oil, lemon juice, salt, and pepper.",
+        "Fold in parsley and thin red onion if using.",
+        "Eat with toast or on its own."
+      ]
+    },
+    {
+      "id": "mexican-bean-tacos",
+      "name": "Black bean tacos",
+      "cuisine": "Mexican",
+      "description": "Warm tortillas filled with spiced black beans and toppings.",
+      "timeMinutes": 20,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Black beans",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Corn tortillas",
+          "quantity": 8,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Avocado",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Sauté onion and garlic, then add beans, cumin, chili powder, and salt.",
+        "Mash lightly so the filling holds together.",
+        "Warm tortillas and fill with beans.",
+        "Top with avocado, cilantro, and lime."
+      ]
+    },
+    {
+      "id": "mexican-chicken-fajitas",
+      "name": "Chicken fajita skillet",
+      "cuisine": "Mexican",
+      "description": "Strips of chicken with peppers and onion for wrapping.",
+      "timeMinutes": 25,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken breast",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bell pepper",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Flour tortillas",
+          "quantity": 6,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Toss chicken strips with spices and salt.",
+        "Sear chicken, then cook peppers and onion in the same pan.",
+        "Combine everything and squeeze lime over.",
+        "Serve in warm tortillas."
+      ]
+    },
+    {
+      "id": "mexican-egg-migas",
+      "name": "Migas scramble",
+      "cuisine": "Mexican",
+      "description": "Eggs scrambled with tortilla chips, salsa, and cheese.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 4,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Tortilla chips",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Salsa",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cheddar",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Warm salsa in a pan with a little oil.",
+        "Add eggs and soft scramble.",
+        "Fold in crushed chips and cheddar until melty.",
+        "Top with cilantro and avocado."
+      ]
+    },
+    {
+      "id": "mexican-elote-salad",
+      "name": "Corn elote salad",
+      "cuisine": "Mexican",
+      "description": "Charred corn kernels with lime, chili, and creamy yogurt.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Corn",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yogurt",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Feta",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Char corn in a hot dry pan until speckled.",
+        "Stir yogurt with lime juice, chili powder, and salt.",
+        "Toss corn in the dressing.",
+        "Top with cilantro and crumbled feta."
+      ]
+    },
+    {
+      "id": "mexican-shrimp-tacos",
+      "name": "Chili lime shrimp tacos",
+      "cuisine": "Mexican",
+      "description": "Quick shrimp with chili and lime tucked into tortillas.",
+      "timeMinutes": 20,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Corn tortillas",
+          "quantity": 8,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Chili powder",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lime",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 2,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green cabbage",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Toss shrimp with chili powder, garlic, salt, and oil.",
+        "Sear quickly until pink.",
+        "Squeeze lime over and warm tortillas.",
+        "Fill with shrimp, shredded cabbage, and cilantro."
+      ]
+    },
+    {
+      "id": "western-sheet-pan-chicken",
+      "name": "Sheet-pan chicken dinner",
+      "cuisine": "Western",
+      "description": "Chicken thighs roasted with potatoes and broccoli.",
+      "timeMinutes": 40,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 600,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Potatoes",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 1,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Heat the oven hot and toss potatoes with oil, salt, and pepper.",
+        "Add chicken to the pan and roast until nearly done.",
+        "Scatter broccoli and garlic, then finish roasting.",
+        "Rest a few minutes before serving."
+      ]
+    },
+    {
+      "id": "western-tuna-melt",
+      "name": "Skillet tuna melt",
+      "cuisine": "Western",
+      "description": "Toasty bread topped with tuna and melted cheddar.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "name": "Canned tuna",
+          "quantity": 1,
+          "unit": "can",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Bread",
+          "quantity": 4,
+          "unit": "slice",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cheddar",
+          "quantity": 0.75,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Butter",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 0.25,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Mix tuna with mayonnaise, pepper, and minced onion if using.",
+        "Butter bread and toast one side in a pan.",
+        "Pile tuna and cheddar on the untoasted side.",
+        "Cover until cheese melts."
+      ]
+    },
+    {
+      "id": "western-veggie-omelette",
+      "name": "Fridge veggie omelette",
+      "cuisine": "Western",
+      "description": "Eggs folded around spinach, cheese, and leftover veg.",
+      "timeMinutes": 15,
+      "servings": 1,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Baby spinach",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cheddar",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Butter",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Bell pepper",
+          "quantity": 0.25,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Mushrooms",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Beat eggs with salt and pepper.",
+        "Sauté any veg in butter, then pour in eggs.",
+        "Scatter spinach and cheese, fold when set.",
+        "Slide onto a plate while still soft inside."
+      ]
+    },
+    {
+      "id": "western-beef-stir-broccoli",
+      "name": "Beef and broccoli",
+      "cuisine": "Western",
+      "description": "A takeout-style skillet of beef steak and broccoli.",
+      "timeMinutes": 25,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Beef steak",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 1,
+          "unit": "head",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cornstarch",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Ginger",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Slice beef thin and toss with cornstarch.",
+        "Sear beef hot, then set aside.",
+        "Stir-fry broccoli and garlic with a splash of water.",
+        "Return beef with soy sauce and sugar until glossy."
+      ]
+    },
+    {
+      "id": "western-baked-potato-bar",
+      "name": "Loaded baked potatoes",
+      "cuisine": "Western",
+      "description": "Fluffy potatoes topped with yogurt, cheese, and greens.",
+      "timeMinutes": 45,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cheddar",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Butter",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Bacon",
+          "quantity": 2,
+          "unit": "slice",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Bake or microwave the potatoes until the centers are soft.",
+        "Split them open and fluff the insides with butter, salt, and pepper.",
+        "Spoon on yogurt and shredded cheddar.",
+        "Finish with green onion and cooked bacon if you have it."
+      ]
+    },
+    {
+      "id": "vietnamese-garlic-noodles",
+      "name": "Butter garlic noodles",
+      "cuisine": "Vietnamese",
+      "description": "Rich garlic butter noodles with a splash of fish sauce.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Egg noodles",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 6,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Butter",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Soy sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Parmesan",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cook noodles until tender and reserve a splash of water.",
+        "Melt butter with minced garlic until fragrant.",
+        "Toss noodles with soy sauce, fish sauce, and sugar.",
+        "Loosen with pasta water and top with green onion."
+      ]
+    },
+    {
+      "id": "vietnamese-lemongrass-chicken",
+      "name": "Lemongrass chicken",
+      "cuisine": "Vietnamese",
+      "description": "Chicken thighs fragrant with lemongrass and fish sauce.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken thighs",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemongrass",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Shallots",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Chop lemongrass, garlic, and shallots finely.",
+        "Coat chicken with the aromatics, fish sauce, and sugar.",
+        "Pan-cook until browned and cooked through.",
+        "Rest briefly and squeeze lime over."
+      ]
+    },
+    {
+      "id": "vietnamese-fresh-spring-rolls",
+      "name": "Herb shrimp spring rolls",
+      "cuisine": "Vietnamese",
+      "description": "Rice paper rolls with shrimp, noodles, and lots of herbs.",
+      "timeMinutes": 30,
+      "servings": 2,
+      "difficulty": "medium",
+      "tags": [
+        "fresh"
+      ],
+      "ingredients": [
+        {
+          "name": "Rice paper",
+          "quantity": 8,
+          "unit": "sheet",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Rice noodles",
+          "quantity": 100,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 4,
+          "unit": "leaf",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Mint",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cilantro",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Peanut butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        },
+        {
+          "name": "Hoisin sauce",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cook shrimp and soak rice noodles until soft.",
+        "Dip rice paper in warm water until flexible.",
+        "Layer lettuce, herbs, cucumber, noodles, and shrimp, then roll tight.",
+        "Stir peanut butter with a little hoisin and water for dipping."
+      ]
+    },
+    {
+      "id": "vietnamese-caramel-pork",
+      "name": "Caramel pork bites",
+      "cuisine": "Vietnamese",
+      "description": "Pork simmered in a salty-sweet caramel sauce.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "medium",
+      "tags": [
+        "one-pot"
+      ],
+      "ingredients": [
+        {
+          "name": "Pork chops",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Shallots",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Cube pork and brown lightly.",
+        "Melt sugar in the pan until amber, then carefully add fish sauce and a splash of water.",
+        "Add garlic, shallots, and pork; simmer until glossy.",
+        "Crack black pepper and top with green onion."
+      ]
+    },
+    {
+      "id": "vietnamese-tofu-tomato",
+      "name": "Tomato tofu simmer",
+      "cuisine": "Vietnamese",
+      "description": "Fried tofu softens in a bright tomato sauce.",
+      "timeMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Firm tofu",
+          "quantity": 14,
+          "unit": "oz",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Roma tomatoes",
+          "quantity": 3,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Green onion",
+          "quantity": 2,
+          "unit": "stalk",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Fish sauce",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Cooking oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Fry tofu cubes until golden.",
+        "Cook garlic and tomatoes into a sauce with fish sauce, sugar, and salt.",
+        "Return tofu to simmer gently.",
+        "Finish with green onion."
+      ]
+    },
+    {
+      "id": "mediterranean-chickpea-salad",
+      "name": "Lemon chickpea salad",
+      "cuisine": "Mediterranean",
+      "description": "Chickpeas, cucumber, and herbs in a lemony olive oil dressing.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "ingredients": [
+        {
+          "name": "Chickpeas",
+          "quantity": 2,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cherry tomatoes",
+          "quantity": 1,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Red onion",
+          "quantity": 0.25,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Parsley",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Feta",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Chop cucumber, tomatoes, onion, and parsley.",
+        "Toss with chickpeas, olive oil, lemon juice, and salt.",
+        "Crumble feta over if using.",
+        "Rest five minutes so flavors mingle."
+      ]
+    },
+    {
+      "id": "mediterranean-garlic-shrimp",
+      "name": "Garlic lemon shrimp",
+      "cuisine": "Mediterranean",
+      "description": "Shrimp sautéed in olive oil with garlic and lemon.",
+      "timeMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "quick",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 300,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Chili flakes",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Parsley",
+          "quantity": 0.25,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Warm olive oil with garlic and chili flakes.",
+        "Add shrimp and cook until pink.",
+        "Squeeze lemon and season with salt.",
+        "Scatter parsley and serve with bread or rice."
+      ]
+    },
+    {
+      "id": "mediterranean-hummus-bowl",
+      "name": "Hummus grain bowl",
+      "cuisine": "Mediterranean",
+      "description": "Quick homemade-style chickpea mash with cucumber and pita.",
+      "timeMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "name": "Chickpeas",
+          "quantity": 1.5,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Tahini",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.5,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Pita",
+          "quantity": 2,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Paprika",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Mash chickpeas with tahini, lemon, garlic, salt, and olive oil.",
+        "Warm pita and slice cucumber.",
+        "Spoon hummus into bowls with cucumber.",
+        "Dust paprika and drizzle more oil."
+      ]
+    },
+    {
+      "id": "mediterranean-baked-feta-pasta",
+      "name": "Tomato feta bake",
+      "cuisine": "Mediterranean",
+      "description": "Roasted tomatoes and feta stirred into hot pasta.",
+      "timeMinutes": 35,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "vegetarian",
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Penne",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Cherry tomatoes",
+          "quantity": 3,
+          "unit": "cup",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Feta",
+          "quantity": 200,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Basil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Roast tomatoes, garlic, and a block of feta with olive oil until soft.",
+        "Boil pasta until al dente.",
+        "Mash the tray into a sauce and toss with pasta.",
+        "Season and finish with basil."
+      ]
+    },
+    {
+      "id": "mediterranean-lemon-herb-chicken",
+      "name": "Lemon herb chicken",
+      "cuisine": "Mediterranean",
+      "description": "Chicken breast with lemon, oregano, and olive oil.",
+      "timeMinutes": 30,
+      "servings": 3,
+      "difficulty": "easy",
+      "tags": [
+        "one-pan"
+      ],
+      "ingredients": [
+        {
+          "name": "Chicken breast",
+          "quantity": 500,
+          "unit": "g",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "count",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Garlic",
+          "quantity": 3,
+          "unit": "clove",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Oregano",
+          "quantity": 1,
+          "unit": "tsp",
+          "optional": false,
+          "staple": false
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Black pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "optional": false,
+          "staple": true
+        },
+        {
+          "name": "Zucchini",
+          "quantity": 1,
+          "unit": "count",
+          "optional": true,
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Coat chicken with olive oil, lemon zest and juice, garlic, oregano, salt, and pepper.",
+        "Sear in a pan, then lower heat to finish.",
+        "Optionally roast zucchini alongside.",
+        "Rest and slice against the grain."
+      ]
+    }
+  ]
+}

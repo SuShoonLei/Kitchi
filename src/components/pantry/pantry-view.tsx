@@ -10,6 +10,7 @@ import { unreachableMessage } from "@/lib/wire";
 import { formatExpiryLabel, getExpiryStatus } from "@/lib/expiry";
 import { formatMoney } from "@/lib/format";
 import { INGREDIENT_CATEGORIES, type Ingredient, type IngredientCategory } from "@/lib/types";
+import { useLoadSampleData } from "@/lib/sample-data";
 import { useIngredientActions, useIngredients, useSettings } from "@/lib/use-journal";
 const TONE = { fresh: "green", soon: "yellow", urgent: "red" } as const;
 
@@ -17,6 +18,7 @@ export function PantryView() {
   const list = useIngredients();
   const settings = useSettings();
   const actions = useIngredientActions();
+  const loadSample = useLoadSampleData();
   const [editing, setEditing] = useState<Ingredient | null>(null);
   const [toast, setToast] = useState<{ text: string; undo?: () => void; celebrate?: boolean } | null>(null);
   const currency = settings.data?.currency ?? "USD";
@@ -34,11 +36,21 @@ export function PantryView() {
       />
       <QueryGate isLoading={list.isLoading} error={list.error} onRetry={() => void list.refetch()}>
         {(list.data ?? []).length === 0 ? (
-          <EmptyState
-            title="The pantry's having a nap"
-            mood="sleepy"
-            description="Add some food and it'll line up here with green, yellow, and red stickers."
-          />
+          <div>
+            <EmptyState
+              title="The pantry's having a nap"
+              mood="sleepy"
+              description="Add some food and it'll line up here with green, yellow, and red stickers."
+            />
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              <a className="sticker-press bg-kitchi-red px-4 py-2 text-kitchi-cream" href="/add">
+                Add ingredients
+              </a>
+              <Button variant="steam" onClick={() => loadSample()}>
+                Load sample data
+              </Button>
+            </div>
+          </div>
         ) : (
           <ul className="mt-6 grid list-none grid-cols-1 gap-4 p-0 sm:grid-cols-2">
             {(list.data ?? []).map((item) => {

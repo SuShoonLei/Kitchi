@@ -14,12 +14,13 @@ The Vercel site runs the **public local-first edition** (`NEXT_PUBLIC_DATA_MODE=
 2. **Onboarding** — four steps on first visit. Skip ahead to “Make it yours,” pick cuisines and an optional eating-out budget, or use “Skip for now.” Replay it anytime from **Settings → Replay intro**.
 3. **Home** — greeting, “Use these first” strip, and week folders. Flip a folder for the breakdown; **View details** opens Spending for that week.
 4. **Pantry** — seeded fake food with expiry colours. Edit, mark used, mark wasted, or delete (wasted and delete offer Undo).
-5. **Add → Manual** — type an ingredient onto the shelf. Scan stays a placeholder for now.
-6. **Grocery list** — add, check, edit, delete items; **Checkout** with a store name. “Generate suggestions” is coming soon.
-7. **Spending** — week list, eating-out form, budget badge.
-8. **Settings** — cuisines, currency, weekly eating-out budget, and **Delete all my data** (clears this device’s journal and the intro flag).
+5. **Meals** — ranked ideas from a bundled recipe catalog against your pantry (use-up-first, make-now, almost-there). Add missing items to the grocery list or mark a recipe cooked.
+6. **Add → Scan / Manual** — barcode (Open Food Facts in the browser) or Photo (Beta, on-device). Everything goes through a confirm step before saving. Manual typing still works.
+7. **Grocery list** — add, check, edit, delete items; **Checkout** with a store name. “Generate suggestions” is coming soon.
+8. **Spending** — week list, eating-out form, budget badge.
+9. **Settings** — cuisines, currency, weekly eating-out budget, **Load sample data**, and **Delete all my data**. About shows build version + short commit hash.
 
-Meals / recipes are still a placeholder. No account, email, or personal info is collected.
+No account, email, or personal info is collected. Photos never leave the device; optional Photo model files download from Hugging Face when you consent.
 
 To see splash and onboarding again in the same browser: open DevTools → Application → clear `sessionStorage` key `kitchi:splash` and `localStorage` key `kitchi:onboarded` (or use Delete all my data, then refresh).
 
@@ -77,7 +78,10 @@ src/components/shell     Sidebar, bottom tab bar, and page transitions.
 src/components/holo      Reusable holographic card (tilt, foil, flip).
 src/components/home      Home hero, week folders, and the use-these-first strip.
 src/components/pantry    Active pantry list and actions.
-src/components/add       Manual add form (scan placeholder).
+src/components/add       Scan (barcode + photo) and manual add.
+src/components/meals     Meal ideas UI.
+frontend/data            Bundled recipes.json + vocabulary.json.
+scripts/validate-recipes.mjs  Recipe/vocabulary CI check (`npm run validate:recipes`).
 src/components/grocery   Grocery list and checkout.
 src/components/spending  Weeks, eating out, budget badge.
 src/components/settings  Cuisines, budget, About, delete data.
