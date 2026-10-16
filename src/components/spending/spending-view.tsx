@@ -1,6 +1,5 @@
 "use client";
 
-import { parseISO } from "date-fns";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Mascot } from "@/components/brand/mascot";
@@ -8,12 +7,10 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { PageFrame, PageHeader } from "@/components/ui/page-header";
 import { QueryGate } from "@/components/ui/query-state";
 import { Badge, Button, Card } from "@/components/ui/sticker";
-import { isDemoMode } from "@/lib/config";
 import { formatMoney } from "@/lib/format";
 import type { BudgetStatus, EatingOutEntry } from "@/lib/types";
 import { useEatingActions, useEatingOut, useSettings, useWeekDetail, useWeeks } from "@/lib/use-journal";
-import { formatWeekLabel, weekKey } from "@/lib/week";
-import { useFridgeStore } from "@/store/use-fridge-store";
+import { formatWeekLabel } from "@/lib/week";
 import { isApiError } from "@/lib/wire";
 
 const BADGE: Record<BudgetStatus, { tone: "quiet" | "green" | "yellow" | "red"; label: string }> = {
@@ -38,16 +35,6 @@ export function SpendingView() {
   const [note, setNote] = useState("");
   const [editing, setEditing] = useState<EatingOutEntry | null>(null);
   const [saved, setSaved] = useState(false);
-  const localTrips = useFridgeStore((state) => state.groceryTrips);
-  const localEating = useFridgeStore((state) => state.eatingOut);
-  const localMeals = useFridgeStore((state) => state.meals);
-  const demoWeek = isDemoMode() && week
-    ? {
-        trips: localTrips.filter((trip) => weekKey(parseISO(trip.date)) === week),
-        eatingOut: localEating.filter((entry) => weekKey(parseISO(entry.date)) === week),
-        meals: localMeals.filter((meal) => weekKey(parseISO(meal.cookedAt)) === week),
-      }
-    : null;
 
   return (
     <PageFrame>
@@ -56,22 +43,6 @@ export function SpendingView() {
         title="Spending"
         description="Grocery runs and meals out, totaled from Monday to Sunday."
       />
-      {demoWeek ? (
-        <Card className="mt-6 px-4 py-4">
-          <h2 className="text-2xl">Week details</h2>
-          <ul className="mt-3 list-none space-y-1 p-0 text-sm">
-            {demoWeek.trips.map((trip) => (
-              <li key={trip.id}>{trip.store} · {formatMoney(trip.total, currency)}</li>
-            ))}
-            {demoWeek.eatingOut.map((entry) => (
-              <li key={entry.id}>{entry.place} · {formatMoney(entry.amount, currency)}</li>
-            ))}
-            {demoWeek.meals.map((meal) => (
-              <li key={meal.id}>{meal.name} · saved {formatMoney(meal.moneySaved, currency)}</li>
-            ))}
-          </ul>
-        </Card>
-      ) : null}
       {week && detail.data ? (
         <Card className="mt-6 px-4 py-4">
           <h2 className="text-2xl">Week of {formatWeekLabel(detail.data.weekStart, detail.data.weekEnd)}</h2>

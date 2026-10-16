@@ -12,7 +12,7 @@ import {
 } from "react";
 import { Mascot, type MascotMood } from "@/components/brand/mascot";
 import { Button, Chip } from "@/components/ui/sticker";
-import { isDemoMode } from "@/lib/config";
+import { isLocalMode } from "@/lib/config";
 import {
   advanceIntroStep,
   buildOnboardingSettings,
@@ -302,7 +302,7 @@ function OnboardingDialog({
                   />
                 </label>
                 {budgetError ? <p className="text-sm font-bold text-kitchi-red">{budgetError}</p> : null}
-                {isDemoMode() ? (
+                {isLocalMode() ? (
                   <p className="text-center text-sm font-bold text-kitchi-navy/65">Your data stays on this device.</p>
                 ) : null}
                 <Button type="submit" className="w-full min-h-11" disabled={saving}>

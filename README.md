@@ -6,7 +6,7 @@ Waste less, taste best. A mobile-first kitchen journal for cooking what you alre
 
 **[https://kitchibysu.vercel.app](https://kitchibysu.vercel.app)**
 
-The Vercel site runs in **demo mode** (no backend hosted yet). A yellow sticker says “Demo mode: data stays on this device.” Everything you add is stored in this browser’s `localStorage` only.
+The Vercel site runs the **public local-first edition** (`NEXT_PUBLIC_DATA_MODE=local`, the default). A soft badge says “Private by design: your data stays on this device.” Everything you add stays in this browser. A SQLite-in-the-browser engine is coming next; today the local journal still uses the on-device store.
 
 ### What to click through
 
@@ -23,14 +23,16 @@ Meals / recipes are still a placeholder. No account, email, or personal info is 
 
 To see splash and onboarding again in the same browser: open DevTools → Application → clear `sessionStorage` key `kitchi:splash` and `localStorage` key `kitchi:onboarded` (or use Delete all my data, then refresh).
 
-## Run it locally (demo mode)
+## Run locally — public edition (frontend only)
+
+Default for Vercel and for anyone browsing the repo. No Postgres, no Java.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Leave `NEXT_PUBLIC_API_URL` unset so the site matches the Vercel demo.
+Open [http://localhost:3000](http://localhost:3000). Leave `NEXT_PUBLIC_DATA_MODE` unset (or `local`). You should see the **Private by design** badge.
 
 ```bash
 npm run lint
@@ -38,12 +40,13 @@ npm run build
 npm test
 ```
 
-## Run the API and the app together
+## Run locally — full mode (Postgres + API + frontend)
 
-Postgres, then the API, then the site. `ALLOWED_ORIGINS` defaults to `http://localhost:3000`.
+`ALLOWED_ORIGINS` defaults to `http://localhost:3000` (comma-separated list). Documented in `backend/README.md`.
 
 ```bash
 cp .env.example .env
+# edit DB_* placeholders on your machine; do not commit .env
 docker compose up -d
 set -a && source .env && set +a
 cd backend && mvn spring-boot:run -Dspring-boot.run.profiles=dev
@@ -52,12 +55,17 @@ cd backend && mvn spring-boot:run -Dspring-boot.run.profiles=dev
 In another terminal, from the repo root:
 
 ```bash
-cp frontend/.env.example .env.local
+cat > .env.local <<'EOF'
+NEXT_PUBLIC_DATA_MODE=api
+NEXT_PUBLIC_API_URL=http://localhost:8080
+EOF
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000. The first visit creates an anonymous device id, the dev API seeds a fake pantry, and Home, Pantry, Add, Grocery, Spending, and Settings talk to that account.
+Open http://localhost:3000. The first visit creates an anonymous device id, the dev API seeds a fake pantry, and Home, Pantry, Add, Grocery, Spending, and Settings talk to that account. The private-by-design badge is hidden in api mode.
+
+Without Docker, point `DB_URL` / `DB_USER` / `DB_PASSWORD` at a local Postgres database named `kitchi`, and use `TEST_DB_*` for tests (see `backend/README.md`).
 
 ## Folder structure
 

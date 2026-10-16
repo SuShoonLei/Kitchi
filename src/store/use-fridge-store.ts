@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import { isDemoMode } from "@/lib/config";
+import { isLocalMode } from "@/lib/config";
 import { createId } from "@/lib/format";
 import {
   createSeedEatingOut,
@@ -174,11 +174,11 @@ export const useFridgeStore = create<FridgeState>()(
 );
 
 export function useStoreReady(): boolean {
-  const demo = isDemoMode();
-  const [ready, setReady] = useState(!demo);
+  const local = isLocalMode();
+  const [ready, setReady] = useState(!local);
 
   useEffect(() => {
-    if (!demo) return;
+    if (!local) return;
     let active = true;
     void ensureJournal().finally(() => {
       if (active) setReady(true);
@@ -186,7 +186,7 @@ export function useStoreReady(): boolean {
     return () => {
       active = false;
     };
-  }, [demo]);
+  }, [local]);
 
   return ready;
 }

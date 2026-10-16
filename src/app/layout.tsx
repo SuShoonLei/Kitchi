@@ -33,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       data-scroll-behavior="smooth"
       className={`${baloo.variable} ${nunito.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full">
         <link rel="preload" href={LOGO_SRC} as="image" />

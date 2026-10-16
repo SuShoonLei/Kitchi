@@ -6,8 +6,6 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { PageFrame, PageHeader } from "@/components/ui/page-header";
 import { QueryGate } from "@/components/ui/query-state";
 import { Badge, Button, Card } from "@/components/ui/sticker";
-import { api } from "@/lib/api";
-import { isDemoMode } from "@/lib/config";
 import { unreachableMessage } from "@/lib/wire";
 import { formatExpiryLabel, getExpiryStatus } from "@/lib/expiry";
 import { formatMoney } from "@/lib/format";
@@ -142,29 +140,19 @@ export function PantryView() {
   );
 
   function undoDelete(item: Ingredient) {
-    if (isDemoMode()) actions.restore?.(omitId(item));
-    else void api.createIngredient(toInput(item)).then(() => void list.refetch());
+    actions.restore.mutate({
+      name: item.name,
+      quantity: item.quantity,
+      unit: item.unit,
+      category: item.category,
+      expiresAt: item.expiresAt,
+      estimatedPrice: item.estimatedPrice,
+    });
   }
 
   function undoWaste(item: Ingredient) {
-    if (isDemoMode()) actions.update(item.id, { status: "ACTIVE" });
-    else void api.updateIngredient(item.id, { status: "ACTIVE" }).then(() => void list.refetch());
+    actions.reactivate.mutate(item.id);
   }
-}
-
-function omitId(item: Ingredient) {
-  return {
-    name: item.name,
-    quantity: item.quantity,
-    unit: item.unit,
-    category: item.category,
-    expiresAt: item.expiresAt,
-    estimatedPrice: item.estimatedPrice,
-  };
-}
-
-function toInput(item: Ingredient) {
-  return { ...omitId(item), source: "MANUAL" as const };
 }
 
 function EditCard({

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Chip, Button, Card } from "@/components/ui/sticker";
 import { QueryGate } from "@/components/ui/query-state";
-import { isDemoMode } from "@/lib/config";
+import { isLocalMode } from "@/lib/config";
 import { CUISINES, type Cuisine } from "@/lib/types";
 import { useDeleteAccount, useSaveSettings, useSettings } from "@/lib/use-journal";
 import { isApiError } from "@/lib/wire";
@@ -88,8 +88,8 @@ function SettingsEditor({
       <Card className="mt-8 px-5 py-6">
         <h2 className="text-2xl">Delete all my data</h2>
         <p className="mt-2 max-w-xl text-kitchi-navy/75">
-          {isDemoMode()
-            ? "Demo mode only has data on this device. This clears that journal and the device id."
+          {isLocalMode()
+            ? "This clears everything stored on this device only."
             : "This deletes the anonymous account and everything tied to this device."}
         </p>
         {confirming ? (

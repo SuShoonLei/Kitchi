@@ -31,7 +31,7 @@ export function AddIngredients() {
       <PageHeader
         eyebrow="Bring food in"
         title="Add or scan"
-        description="Let's cook something tasty. Photograph a shelf or type what you have. Both paths land in the pantry once they're built."
+        description="Add ingredients by hand for now. Camera scanning is on the way."
       />
       <div className="mt-8" onKeyDown={onKeyDown}>
         <div role="tablist" aria-label="How to add ingredients" className="flex gap-2">
@@ -61,9 +61,9 @@ export function AddIngredients() {
             hidden={tab !== "scan"}
           >
             <Mascot mood="cooking" size="lg" className="mx-auto" />
-            <h2 className="mt-3 text-2xl">Point the camera at the shelf</h2>
+            <h2 className="mt-3 text-2xl">Camera scanning is coming soon</h2>
             <p className="mx-auto mt-2 max-w-md text-kitchi-navy/75">
-              A photo of the fridge will become ingredients here. Scanning is the next chapter, so this side stays empty for now.
+              Camera scanning is coming soon. Add items by hand for now.
             </p>
           </div>
           <div

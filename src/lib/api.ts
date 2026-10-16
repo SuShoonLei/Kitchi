@@ -1,4 +1,4 @@
-import { apiBaseUrl } from "@/lib/config";
+import { requireApiBaseUrl } from "@/lib/config";
 import { browserTimeZone, getDeviceId } from "@/lib/device";
 import type {
   BudgetStatus,
@@ -86,8 +86,12 @@ export type IngredientInput = {
 };
 
 async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
-  const base = apiBaseUrl();
-  if (!base) throw new ApiError(0, "Demo mode has no API.", {});
+  let base: string;
+  try {
+    base = requireApiBaseUrl();
+  } catch (error) {
+    throw new ApiError(0, error instanceof Error ? error.message : "API URL is not configured.", {});
+  }
   let response: Response;
   try {
     response = await fetch(`${base}${path}`, {
