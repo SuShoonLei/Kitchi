@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { SplashScreen } from "@/components/brand/splash-screen";
+import { IntroHost } from "@/components/intro/intro-host";
 import { isDemoMode } from "@/lib/config";
 import { BrandLogo } from "@/components/brand/brand-logo";
 import { PageTransition } from "@/components/shell/page-transition";
@@ -15,7 +15,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <a href="#main" className="skip-link">
         Skip to content
       </a>
-      <SplashScreen />
+      <IntroHost />
       <div id="app-content">
       <Sidebar />
       <div className="pb-24 md:pb-0 md:pl-[17.5rem]">

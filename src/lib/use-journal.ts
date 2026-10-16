@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import { api, eatingOutFromDto, type IngredientInput, type SavingsSummary, type WeekDetail, type WeekRow } from "@/lib/api";
 import { isDemoMode } from "@/lib/config";
 import { clearDeviceId } from "@/lib/device";
+import { clearOnboarded } from "@/lib/intro";
 import { getExpiryStatus } from "@/lib/expiry";
 import type { Cuisine, EatingOutEntry, GroceryItem, Ingredient, Settings, WeekSummary } from "@/lib/types";
 import { buildWeekSummaries } from "@/lib/week";
@@ -436,6 +437,8 @@ export function useDeleteAccount() {
     mutationFn: async () => {
       if (!demo) await api.deleteMe();
       clearDeviceId();
+      clearOnboarded((key) => window.localStorage.removeItem(key));
+      delete document.documentElement.dataset.kitchiOnboarded;
       if (demo) window.localStorage.removeItem("kitchi");
     },
     onSuccess: () => {
